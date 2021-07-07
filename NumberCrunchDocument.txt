@@ -1,0 +1,48 @@
+Number Crunch System
+----------------------------------------------------------------------------
+Project Prerequisite
+	1) .Net Core 3.5 SDK
+	2) Visual Studio 2019 (optional)
+	3) Visual Code (Easy to edit Angular client code)
+	4) Angular CLI
+----------------------------------------------------------------------------
+Projects
+	1) WebApi : Using Asp.Net Core project
+	2) Angular : Using the Angular CLI
+----------------------------------------------------------------------------	
+WebApi Project brief : 
+		This project is to developed for creating the RestAPI. Using this project user sends data to api and received data to display on the UI.
+----------------------------------------------------------------------------
+Folder structure for Asp.Net Core.
+	Interface- Create Interface
+	Service - Implement the Business logic
+	Controller - Call the Service method to get the data
+	Models - Create Data and SampleScore class to set the properties
+----------------------------------------------------------------------------
+How to RUN WebApi Project
+	Open the project in visual studio and build it and then hit RUN button from the visual studio menu.
+Note: The solution file .sln is present inside the "API" project..
+	Note: Before running the Angular project this project must be running.
+************************************************************************************
+Angular Project brief
+	It is mainly developed for the UI part. When user hits URL then page will be displayed on the browser using the this project. 
+----------------------------------------------------------------------------	
+Folder structure for Angular
+	scr : main project
+----------------------------------------------------------------------------	
+How to RUN Angular Project
+	- Open the angular project folder in Visual Code (run as administrator). 
+	- Open CMD (run as administrator) | Or use Terminal in VS Code
+	- Go to the folder of the Angular Project in CMD
+	- check for the npm : If it is not install then install node js in your local machine. (https://nodejs.org/en/download/). Restart VS code in Admin mode after installation
+	- npm install -g @angular/cli (If machine doesn't have angular)
+	- \NumberCrunch\client : npm install It will intall all dependencies.
+	- ng build : It will build your angular project
+	- ng serve : It will RUN your angular project.
+
+
+
+
+
+
+	
